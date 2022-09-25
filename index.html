@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exmen Escalab</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--Google Icon-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200"
+    />
+  </head>
+  <body>
+    <nav class="nav_principal"></nav>
+    <div class="contenedor_primario" id="contendor_1">
+      <div class="contenedor_secundario" id="contendor_2">
+        <div class="contendor_buscador" id="buscador">
+          <h1>Buscador Gift</h1>
+          <input type="text" class="input_buscar" />
+          <button class="btn-primario">Buscar</button>
+        </div>
+        <div class="contenedor_ultimBusqueda">
+          <div class="ultimasBusquedas">
+            <h1>Ultimadas Busquedas</h1>
+            <ul class="history_busqueda" id="history_busqueda"></ul>
+          </div>
+          <div class="gift_logo">
+            <iframe src="https://giphy.com/embed/3oKIPnAiaMCws8nOsE" class="giphy-embed" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="titulo">Gift Tendencia</div>
+      <div class="contenedor_gift" id="contenedor_gift"></div>
+    </div>
+    <script type="module" src="/assets/js/index.js"></script>
+    <!--SweetAlert alertas personalizadas-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+  </body>
+</html>
