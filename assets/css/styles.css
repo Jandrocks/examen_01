@@ -210,25 +210,3 @@ overflow: hidden;
     }
 }
 
-/*
-   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: var(--color-bg-transparent);
-    border-radius: 1rem;
-    padding: 2rem;
-    align-items: center; 	
-    grid-template-rows: masonry;
-
-
-    .img-gift {
-    align-content: center;  
-    border-radius: 1rem;      
-    height: 0%;  
-    justify-content: center;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-    overflow: hidden;   
-}
-*/
